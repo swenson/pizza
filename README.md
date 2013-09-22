@@ -21,6 +21,10 @@ There a few features that are missing to make this a full-featured geocoder
 Running
 =======
 
+First, you need all the data.
+Run `get_data.py` to fetch all of the census data (2.9 GB downloaded, unpacks
+to 15 GB).
+
 Assuming you have maven installed, you should be able to run it with:
 
 ```bash
