@@ -7,6 +7,9 @@ good matches for well-formed street addresses, or tries to find the best address
 for a given latitude / longitude.
 
 You can also test it out on `geo.1so.me:27368` (see below).
+This only has the data for Oregon loaded at the moment, mostly due to RAM constraints.
+
+It's written in Scala.
 
 Missing features
 ----------------
@@ -64,3 +67,11 @@ $ curl "geo.1so.me:27368/geocode?address=1005%20W%20Burnside%20St,%20Portland,%2
 $ curl "geo.1so.me:27368/reverse-geocode?lat=45.522973&lon=-122.681172"
 {"street":"1005 W Burnside St","city":"Portland","state":"OR","zip":"97209","country":"USA","lat":45.522973,"lon":-122.681172}
 ```
+
+License
+-------
+
+Copyright 2013 Christopher Swenson.
+
+Licensed under the MIT license.
+See LICENSE for more information.
