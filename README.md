@@ -11,12 +11,16 @@ You can also test it out on `geo.1so.me:27368` (see below).
 Missing features
 ----------------
 
-There a few features that are missing to make this a full-featured geocoder
+There are a few features that are missing to make this a full-featured geocoder:
 
 * Expansion of abbreviations where necessary (e.g., Col Gateway Dr => Columbia Gateway Dr)
 * Contraction of abbreviations (e.g., Columbia Gateway Drive => Columbia Gateway Dr)
 * Nearest neighbor street name match (e.g., 920 NW 15th => 920 NW 15th St)
 * Spell correction of streets, cities
+* Suggestions of streets, cities, addresses.
+* Many more.
+
+Pull requests accepted.
 
 Running
 =======
