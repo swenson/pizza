@@ -1,13 +1,13 @@
 *.class
+*.iml
 *.log
-
-# sbt specific
+.idea/
+.scala_dependencies.idea
+census/
 dist/*
-target/
 lib_managed/
-src_managed/
+newrelic.*
 project/boot/
 project/plugins/project/
-
-# Scala-IDE specific
-.scala_dependencies
+src_managed/
+target/

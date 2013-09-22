@@ -1,0 +1,6 @@
+http:
+  port: 27368
+  adminPort: 27369
+
+logging:
+  level: DEBUG
